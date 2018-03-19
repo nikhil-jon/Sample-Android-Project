@@ -26,6 +26,11 @@ public class MainActivity extends AppCompatActivity {
         masterMethod();
         sampleMethod();
         branchMethod();
+        masterMethod2();
+
+        SomeTestClass someTestClass = new SomeTestClass();
+        someTestClass.getSomeInt();
+        someTestClass.getSomeString();
     }
 
     public void masterMethod() {
