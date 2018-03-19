@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         masterMethod();
         sampleMethod();
+        branchMethod();
     }
 
     public void masterMethod() {
@@ -32,5 +33,9 @@ public class MainActivity extends AppCompatActivity {
     }
     public void sampleMethod() {
         Log.d("nikhil","there is nothing in this method");
+    }
+
+    public void branchMethod() {
+        Log.d("nikhil","this is branch method");
     }
 }
