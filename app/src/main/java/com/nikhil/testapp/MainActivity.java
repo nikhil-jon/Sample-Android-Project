@@ -22,6 +22,11 @@ public class MainActivity extends AppCompatActivity {
         for(int i=0;i<10;i++) {
             Log.d("nikhil","i is "+i);
         }
-
+        
+        masterMethod();
+    }
+    
+    public void masterMethod() {
+        Log.d("nikhil","master branch method");
     }
 }
