@@ -38,4 +38,9 @@ public class MainActivity extends AppCompatActivity {
     public void branchMethod() {
         Log.d("nikhil","this is branch method");
     }
+    
+    public void masterMethod2() {
+        Log.d("nikhil","master method 2");
+    
+    }
 }
