@@ -23,5 +23,10 @@ public class MainActivity extends AppCompatActivity {
             Log.d("nikhil","i is "+i);
         }
 
+        sampleMethod();
+    }
+
+    public void sampleMethod() {
+        Log.d("nikhil","there is nothing in this method");
     }
 }
